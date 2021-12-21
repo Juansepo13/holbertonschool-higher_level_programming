@@ -26,9 +26,7 @@ Cohort 16.
 
 ### More Info
 
-```
 ![Alt text](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/233/code.png)
-```
 
 ## Files included
 
