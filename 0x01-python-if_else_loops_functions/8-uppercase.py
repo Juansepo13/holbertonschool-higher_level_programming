@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 def uppercase(str):
-    for elem in str:
-        if (ord(elem) >= ord('a') and ord(elem) <= ord('z')):
-            elem = ord(elem) - ord(' ')
+    for i in str:
+        if ord(i) >= ord('a') and ord(i) <= ord('z'):
+            i = ord(i) - 32
         else:
-            elem = ord(elem)
-            print("{:c}".format(elem), end='')
-            print()
+            i = ord(i)
+            print("{:c}".format(i), end='')
+            print("")
