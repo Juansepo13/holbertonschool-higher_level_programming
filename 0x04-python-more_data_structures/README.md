@@ -19,8 +19,8 @@ Cohort 16.
 * What are the map, reduce and filter functions
 
 ### More Info
-(Data Structures)[https://docs.python.org/3/tutorial/datastructures.html]
-(/Lambda/)[https://python-course.eu/advanced-python/lambda-filter-reduce-map.php]
+[Data Structures](https://docs.python.org/3/tutorial/datastructures.html)
+[/Lambda/](https://python-course.eu/advanced-python/lambda-filter-reduce-map.php)
 
 
 ## Files included
