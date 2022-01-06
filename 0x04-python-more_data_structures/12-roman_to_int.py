@@ -1,14 +1,22 @@
 #!/usr/bin/python3
 def roman_to_int(roman_string):
-    dic = {'I': 1, 'V': 5, 'X': 10, 'L': 50, 'C': 100, 'D': 500, 'M': 1000}
-    result = 0
-    i = 0
-    roman = roman_string
-    if type(roman) is not str or len(roman) is 0:
+    romans = {'I': 1, 'V': 5, 'X': 10, 'L': 50, 'C': 100, 'D': 500, 'M': 1000}
+    sum = 0
+    if not bool(roman_string):
         return 0
-    for i in range(i, len(roman)):
-        if i < len(roman) - 1 and dic[roman[i]] < dic[roman[i + 1]]:
-            result -= dic[roman[i]]
+    check = isinstance(roman_string, str)
+    if check is False:
+        return 0
+    count = 0
+    for i in roman_string:
+        a = roman_string[count]
+        if count+int(1) < len(roman_string):
+            b = roman_string[count+1]
         else:
-            result += dic[roman[i]]
-    return result
+            b = 'I'
+        if int(romans[a]) < int(romans[b]):
+            sum -= int(romans[i])
+        else:
+            sum += int(romans[i])
+        count += 1
+    return sum
