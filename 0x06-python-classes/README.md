@@ -30,7 +30,7 @@ Cohort 16.
 
 ### More Info
 
-*The first line of all your files should be exactly #!/usr/bin/python3
+* The first line of all your files should be exactly #!/usr/bin/python3
 * A README.md file, at the root of the folder of the project, is mandatory
 * Your code should use the pycodestyle (version 2.7.*)
 * All your files must be executable
