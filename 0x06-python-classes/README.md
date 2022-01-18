@@ -2,8 +2,10 @@
 ***
 ## This is a README.md for the repository - 0x06. Python - Classes and Objects
 
-```For Holberton School
+```
+For Holberton School
 Cohort 16.```
+
 
 ### General
 * Why Python programming is awesome
@@ -29,7 +31,7 @@ Cohort 16.```
 
 ### More Info
 
-```*The first line of all your files should be exactly #!/usr/bin/python3
+*The first line of all your files should be exactly #!/usr/bin/python3
 * A README.md file, at the root of the folder of the project, is mandatory
 * Your code should use the pycodestyle (version 2.7.*)
 * All your files must be executable
@@ -37,7 +39,7 @@ Cohort 16.```
 * All your modules should have a documentation (python3 -c 'print(__import__("my_module").__doc__)')
 * All your classes should have a documentation (python3 -c 'print(__import__("my_module").MyClass.__doc__)')
 * All your functions (inside and outside a class) should have a documentation (python3 -c 'print(__import__("my_module").my_function.__doc__)' and python3 -c 'print(__import__("my_module").MyClass.my_function.__doc__)')
-* A documentation is not a simple word, it’s a real sentence explaining what’s the purpose of the module, class or method (the length of it will be verified)```
+* A documentation is not a simple word, it’s a real sentence explaining what’s the purpose of the module, class or method (the length of it will be verified)
 
 ## Files included
 
