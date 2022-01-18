@@ -2,10 +2,9 @@
 ***
 ## This is a README.md for the repository - 0x06. Python - Classes and Objects
 
+```For Holberton School
+Cohort 16.
 ```
-For Holberton School
-Cohort 16.```
-
 
 ### General
 * Why Python programming is awesome
