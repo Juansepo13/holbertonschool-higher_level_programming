@@ -1,42 +1,40 @@
 #!usr/bin/python3
-"""Rectangle - and empty class rectangle that defines one area"""
+"""Module that defines a class."""
 
 
 class Rectangle:
-    """Empty"""
-    pass
+    """Class: Rectangle"""
 
-class Rectangle:
-    """Define instantiates for the square"""
     def __init__(self, width=0, height=0):
-        """Set with an height"""
-        self.width = width
         self.height = height
+        self.width = width
 
     @property
     def width(self):
-        """return width"""
+        """The width"""
         return self.__width
 
     @width.setter
-    def width(self, value):
-        """Set and validations"""
-        if not isinstance(value, int):
+    def width(self, width):
+        """Set property width"""
+        if type(width) is not int:
             raise TypeError("width must be an integer")
-        if(value < 0):
+        elif width < 0:
             raise ValueError("width must be >= 0")
-        self.__width = value
+        else:
+            self.__width = width
 
     @property
     def height(self):
-        """return height"""
+        """The height"""
         return self.__height
 
     @height.setter
-    def height(self, value):
-        """Set and validations"""
-        if not isinstance(value, int):
+    def height(self, height):
+        """Set property to height"""
+        if type(height) is not int:
             raise TypeError("height must be an integer")
-        if(value < 0):
+        elif height < 0:
             raise ValueError("height must be >= 0")
-        self.__height = value
+        else:
+            self.__height = height
