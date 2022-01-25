@@ -8,34 +8,34 @@ characters: '.', '?' and ':'
 
 
 def text_indentation(text):
-         """Return string divided by spaces
+    """Return string divided by spaces
     Arguments:
         text (string): string to be formmated
     raises:
         TypeError: if the text called with the program is not a string
     """
     if type(text) is not str:
-         raise TypeError("text must be a string")
-    #    flag = 0
-    #    text = text.strip()
-    #    for i in text:
-    #        if flag == 0:
-    #            if i == ' ':
-    #                continue
-    #            else:
-    #                flag = 1
-    #        if flag is 1:
-    #            if i == '.' or i == '?' or i == ':':
-    #                print(i)
-    #                print()
-    #                flag = 0
-    #            else:
-    #                print(i, end='')
+        raise TypeError("text must be a string")
+#    flag = 0
+#    text = text.strip()
+#    for i in text:
+#        if flag == 0:
+#            if i == ' ':
+#                continue
+#            else:
+#                flag = 1
+#        if flag is 1:
+#            if i == '.' or i == '?' or i == ':':
+#                print(i)
+#                print()
+#                flag = 0
+#            else:
+#                print(i, end='')
     list_lines = []
     for char in ".:?":
-         text = text.replace(char, char + "\n\n")
+        text = text.replace(char, char + "\n\n")
 #    list_lines = [lines.strip(' ') for lines in text.split('\n')]
     for lines in text.split('\n'):
-              list_lines.append(lines.strip(" "))
-              revised = "\n".join(list_lines)
-              print(revised, end="")
+        list_lines.append(lines.strip(" "))
+    revised = "\n".join(list_lines)
+    print(revised, end="")
