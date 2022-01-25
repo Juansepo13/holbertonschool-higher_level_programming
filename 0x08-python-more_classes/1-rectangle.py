@@ -1,9 +1,9 @@
 #!usr/bin/python3
-"""Module that defines a class."""
+"""This is a rectangle class."""
 
 
 class Rectangle:
-    """Class: Rectangle"""
+    """Class: Rectangle that defines a rectangle """
 
     def __init__(self, width=0, height=0):
         self.height = height
@@ -11,12 +11,12 @@ class Rectangle:
 
     @property
     def width(self):
-        """The width"""
+        """Getter the width"""
         return self.__width
 
     @width.setter
     def width(self, width):
-        """Set property width"""
+        """Setter in the width"""
         if type(width) is not int:
             raise TypeError("width must be an integer")
         elif width < 0:
@@ -26,12 +26,12 @@ class Rectangle:
 
     @property
     def height(self):
-        """The height"""
+        """Getter in the height"""
         return self.__height
 
     @height.setter
     def height(self, height):
-        """Set property to height"""
+        """Setter to the height"""
         if type(height) is not int:
             raise TypeError("height must be an integer")
         elif height < 0:
