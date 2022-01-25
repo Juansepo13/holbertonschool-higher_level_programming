@@ -1,0 +1,41 @@
+=================================
+How to Use 5-text_indentation.txt
+=================================
+This library contains test cases for the text_indentation() function.
+
+>>> text_indentation = __import__("5-text_indentation").text_indentation
+
+Test Cases
+==========
+>>> text_indentation("Juan:Posada.")
+Juan:
+<BLANKLINE>
+Posada.
+<BLANKLINE>
+
+>>> text_indentation("Juan")
+Juan
+
+>>> text_indentation(650)
+Traceback (most recent call last):
+TypeError: text must be a string
+
+>>> text_indentation(-12)
+Traceback (most recent call last):
+TypeError: text must be a string
+
+>>> text_indentation()
+Traceback (most recent call last):
+TypeError: text_indentation() missing 1 required positional argument: 'text'
+
+>>> text_indentation("Juan", "Posada")
+Traceback (most recent call last):
+TypeError: text_indentation() takes 1 positional argument but 2 were given
+
+>>> text_indentation(""")
+Traceback (most recent call last):
+SyntaxError: EOF while scanning triple-quoted string literal
+
+>>> text_indentation(Juan Posada)
+Traceback (most recent call last):
+SyntaxError: invalid syntax

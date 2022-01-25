@@ -1,0 +1,52 @@
+============================
+How to Use 3-say_my_name.txt
+============================
+This library contains test cases for the say_my_name() function.
+
+>>> say_my_name = __import__("3-say_my_name").say_my_name
+
+Test Cases
+==========
+>>> say_my_name("Juan", "Posada")
+My name is Juan Posada
+
+>>> say_my_name("Juan", "")
+My name is Juan
+
+>>> say_my_name("", "Posada")
+My name is Posada
+
+>>> say_my_name(" ", " ")
+My name is
+
+>>> say_my_name("", "")
+My name is
+
+>>> say_my_name('M', 'D')
+My name is J P
+
+>>> say_my_name("Juan", 'P')
+My name is Juan P
+
+>>> say_my_name('P', "Juan")
+My name is P Juan
+
+>>> say_my_name("Juan", 30)
+Traceback (most recent call last):
+TypeError: last_name must be a string
+
+>>> say_my_name(30, "Juan")
+Traceback (most recent call last):
+TypeError: first_name must be a string
+
+>>> say_my_name("Juan", ['J', 'P'])
+Traceback (most recent call last):
+TypeError: last_name must be a string
+
+>>> say_my_name(Pepito clavó un clavito)
+Traceback (most recent call last):
+SyntaxError: invalid syntax
+
+>>> say_my_name()
+Traceback (most recent call last):
+TypeError: say_my_name() missing 1 required positional argument: 'first_name'
