@@ -3,7 +3,7 @@
 
 
 class Rectangle:
-        """Class Rectangle that defines a rectagle"""
+    """Class Rectangle that defines a rectagle"""
 
     def __init__(self, width=0, height=0):
         self.width = width
@@ -56,7 +56,7 @@ class Rectangle:
             strg += "#" * self.__width
             if i is not self.__height - 1:
                 strg += "\n"
-                return strg
+        return strg
 
     def __repr__(self):
         """Return the representation"""
