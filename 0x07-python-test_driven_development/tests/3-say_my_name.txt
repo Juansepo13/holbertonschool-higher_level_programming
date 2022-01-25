@@ -1,52 +1,74 @@
 ============================
 How to Use 3-say_my_name.txt
 ============================
-This library contains test cases for the say_my_name() function.
+this test was made to check if the program print
+my name
 
->>> say_my_name = __import__("3-say_my_name").say_my_name
+Names:
+======
 
-Test Cases
-==========
->>> say_my_name("Juan", "Posada")
-My name is Juan Posada
+``3-say_my_name`` print my name
 
->>> say_my_name("Juan", "")
-My name is Juan
+::
+					>>> say_my_name = __import__('3-say_my_name').say_my_name
+	    >>> say_my_name("Jhon", "Smith")
+	    	My name is Jhon Smith
 
->>> say_my_name("", "Posada")
-My name is Posada
+		>>> say_my_name("Walter", "White")
+		    My name is Walter White
 
->>> say_my_name(" ", " ")
-My name is
+		    >>> say_my_name("Bob")
+		    	My name is Bob
 
->>> say_my_name("", "")
-My name is
+Errors:
+=======
 
->>> say_my_name('M', 'D')
-My name is J P
+Raise errors when are necesary.
 
->>> say_my_name("Juan", 'P')
-My name is Juan P
+::
+	>>> say_my_name("Luffy", 1)
+	    Traceback (most recent call last):
+	    	      TypeError: last_name must be a string
 
->>> say_my_name('P', "Juan")
-My name is P Juan
+		      >>> say_my_name(4.3, "Monkey")
+		      	  Traceback (most recent call last):
+			  	    TypeError: first_name must be a string
 
->>> say_my_name("Juan", 30)
-Traceback (most recent call last):
-TypeError: last_name must be a string
+				    >>> say_my_name(False, 1)
+				    	Traceback (most recent call last):
+						  TypeError: first_name must be a string
 
->>> say_my_name(30, "Juan")
-Traceback (most recent call last):
-TypeError: first_name must be a string
+						  >>> say_my_name(True, 1)
+						      Traceback (most recent call last):
+						      		TypeError: first_name must be a string
 
->>> say_my_name("Juan", ['J', 'P'])
-Traceback (most recent call last):
-TypeError: last_name must be a string
+								>>> say_my_name(["Luffy"], 1)
+								    Traceback (most recent call last):
+								    	      TypeError: first_name must be a string
 
->>> say_my_name(Pepito clavó un clavito)
-Traceback (most recent call last):
-SyntaxError: invalid syntax
 
->>> say_my_name()
-Traceback (most recent call last):
-TypeError: say_my_name() missing 1 required positional argument: 'first_name'
+									      >>> say_my_name((3, 4), 1)
+									      	  Traceback (most recent call last):
+										  	    TypeError: first_name must be a string
+
+											    >>> say_my_name("Luffy", True)
+											    	Traceback (most recent call last):
+													  TypeError: last_name must be a string
+
+													  >>> say_my_name("Luffy", False)
+													      Traceback (most recent call last):
+													      		TypeError: last_name must be a string
+
+															>>> say_my_name("Luffy", ["hola"])
+															    Traceback (most recent call last):
+															    	      TypeError: last_name must be a string
+
+																      >>> say_my_name("Rayu", "")
+																      	  My name is Rayu
+
+																	  >>> say_my_name("", "")
+																	      My name is
+
+																	      >>> say_my_name()
+																	      	  Traceback (most recent call last):
+																		  	    TypeError: say_my_name() missing 1 required positional argument: 'first_name'
