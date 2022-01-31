@@ -1,0 +1,39 @@
+==============================
+How to Use 7-base_geometry.txt
+==============================
+This library contains test cases for the print_sorted() function.
+
+>>> BaseGeometry = __import__('7-base_geometry').BaseGeometry
+
+Test Cases
+==========
+>>> 'area' in dir(BaseGeometry)
+True
+
+>>> bg = BaseGeometry()
+    >>> type(bg)
+    <class '7-base_geometry.BaseGeometry'>
+
+>>> 'integer_validator' in dir(BaseGeometry)
+True
+
+>>> bg = BaseGeometry()
+     >>> bg.integer_validator("my_int", 12)
+
+
+     >>> bg = BaseGeometry()
+     >>> bg.integer_validator("width", 89)
+
+
+     >>> bg = BaseGeometry()
+          >>> bg.integer_validator("really big number", 10000000)
+
+>>> bg = BaseGeometry()
+     >>> bg.integer_validator()
+     Traceback (most recent call last):
+     TypeError: integer_validator() missing 2 required positional arguments: 'name' and 'value'
+
+>>> bg = BaseGeometry()
+     >>> bg.integer_validator("int", (1, 2, 3))
+     Traceback (most recent call last):
+     TypeError: int must be an integer
