@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Module that import a class."""
+"""Class square inherent from a class rectangle."""
 
 
 Rectangle = __import__('9-rectangle').Rectangle
