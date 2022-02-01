@@ -1,21 +1,16 @@
 #!/usr/bin/python3
-"""
-Module that define an empty class.
-"""
+"""Cass definition"""
 
 
 class BaseGeometry:
-    """
-    Class BaseGeometry.
-    """
+    """improve geometry"""
     def area(self):
+        """Area"""
         raise Exception("area() is not implemented")
 
     def integer_validator(self, name, value):
-        """
-        Validates value.
-        """
+        """ function"""
         if type(value) is not int:
-            raise TypeError(name + " must be an integer")
+            raise TypeError("{} must be an integer".format(name))
         if value <= 0:
-            raise ValueError(name + " must be greater than 0")
+            raise ValueError("{} must be greater than 0".format(name))
