@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-"""Module that define an empty class."""
+"""
+Module that define an empty class.
+"""
 
 
 class BaseGeometry:
