@@ -1,9 +1,9 @@
 #!/usr/bin/python3
-"""method  module"""
+"""Module Method."""
 
 
 def read_file(filename=""):
-    """read  file function"""
+    """Function that read file"""
     with open(filename, encoding="utf-8") as textfile:
         for line in textfile:
             print(line, end="")
