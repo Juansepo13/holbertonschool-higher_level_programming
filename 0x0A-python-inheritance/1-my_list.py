@@ -6,10 +6,11 @@ Module that define a class.
 
 class MyList(list):
     """
-    Class MyList
+        Class MyList
     """
+
     def print_sorted(self):
         """
-        Function that prints a list, sorted (asceding sort).
+            Function that prints a list, sorted (asceding sort).
         """
         print(sorted(self))
