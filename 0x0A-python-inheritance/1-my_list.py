@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+
 """
 class
    MyList
@@ -7,7 +8,7 @@ class
 
 class MyList(list):
     """
-    Class MyList
+    class MyList
     """
 
     def print_sorted(self):
