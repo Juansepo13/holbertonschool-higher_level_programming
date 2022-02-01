@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 
 """
-class
-   MyList
+classes
+    MyList
 """
 
 
@@ -13,8 +13,8 @@ class MyList(list):
 
     def print_sorted(self):
         """
-        Function that prints a list, sorted (asceding sort).
-        Args:
-            self: Mylist
+            this function copy list and print sorted values
+            Args:
+                self: Mylist
         """
         print(sorted(self))
