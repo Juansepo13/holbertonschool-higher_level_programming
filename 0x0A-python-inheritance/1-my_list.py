@@ -1,16 +1,19 @@
 #!/usr/bin/python3
 """
-Module that define a class.
+class
+   MyList
 """
 
 
 class MyList(list):
     """
-        Class MyList
+    Class MyList
     """
 
     def print_sorted(self):
         """
-            Function that prints a list, sorted (asceding sort).
+        Function that prints a list, sorted (asceding sort).
+        Args:
+            self: Mylist
         """
         print(sorted(self))
