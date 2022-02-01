@@ -3,10 +3,12 @@ How to Use 1-my_list.txt
 ========================
 This library contains test cases for the print_sorted() function.
 
->>> MyList = __import__('1-my_list').MyList
+    >>> MyList = __import__('1-my_list').MyList
 
 Test Cases
 ==========
+
+Test0: Add two integers
      >>> my_list = MyList()
 
      >>> my_list.append(1)
