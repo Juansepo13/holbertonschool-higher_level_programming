@@ -1,4 +1,4 @@
-#!/bin/user/python3
+#!/usr/bin/python3
 """
 lookup: Function thar returns the list.
     Args:
