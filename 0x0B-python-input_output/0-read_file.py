@@ -1,11 +1,9 @@
 #!/usr/bin/python3
-"""0. Read file
-"""
+"""method  module"""
 
 
 def read_file(filename=""):
-    """Write a function that reads a text file (UTF8) and prints it to stdout:
-    """
-    with open(filename, 'r') as file:
-        file_content = file.read()
-    print(file_content, end="")
+    """read  file function"""
+    with open(filename, encoding="utf-8") as textfile:
+        for line in textfile:
+            print(line, end="")
