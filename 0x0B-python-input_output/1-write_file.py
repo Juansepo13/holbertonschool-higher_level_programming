@@ -1,12 +1,9 @@
 #!/usr/bin/python3
-"""
-Initializes the number_of_lines() function.
-"""
+"""method"""
 
 
-def number_of_lines(filename=""):
-    """
-    Returns the number of lines of a text file.
-    """
-    with open(filename) as NewText:
-        return sum(1 for line in NewText)
+def write_file(filename="", text=""):
+    """write on file create the file if doesn’t exist
+    overwrite the content of the file if it already exists"""
+    with open(filename, 'w', encoding="utf-8") as fil:
+        return(fil.write(text))
