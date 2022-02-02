@@ -14,5 +14,5 @@ class Student:
             for a in attrs:
                 if a in self.__dict__:
                     k[a] = self.__dict__[a]
-                return k
-            return self.__dict__
+            return k
+        return self.__dict__
