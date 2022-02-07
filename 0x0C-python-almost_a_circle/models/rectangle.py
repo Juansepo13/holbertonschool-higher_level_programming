@@ -8,16 +8,26 @@ class Rectangle(Base):
     """Rectangle Class inherits from Base."""
 
     def __init__(self, width, height, x=0, y=0, id=None):
-        """Initializing the class."""
-        super().__init__(id)
+        """Initializes a Rectangle instance.
+
+        Args:
+        - __width: width
+        -__height: height
+        -__x: position
+        -__y: position
+        -id: id
+        """
+
         self.width = width
         self.height = height
         self.x = x
         self.y = y
+        super().__init__(id)
 
     @property
     def width(self):
-        """Get the widht."""
+        """Retrieves the width attribute"""
+
         return self.__width
 
     @width.setter
