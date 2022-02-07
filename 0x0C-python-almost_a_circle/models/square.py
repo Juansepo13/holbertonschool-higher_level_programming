@@ -1,48 +1,65 @@
 #!/usr/bin/python3
-"""Defining Square Class."""
-
+"""created class Square that inherits that Rectangle"""
 from models.rectangle import Rectangle
 
+
 class Square(Rectangle):
-    """Class Square"""
+    """class Square that inherits rectangle"""
+
     def __init__(self, size, x=0, y=0, id=None):
-        """Class constructor of square"""
+        """class constructor"""
+
+        self.size = size
         super().__init__(size, size, x, y, id)
 
     @property
     def size(self):
-        """size of the square"""
+        """getter and setter public,
+        its width and height have the same values"""
+
         return self.width
 
     @size.setter
     def size(self, value):
-        """setter size of square with rectangle attributes"""
+        """validations"""
+
         self.width = value
-        self.height = value
+
+    def __str__(self, **kwargs):
+        """overloading"""
+
+        return ("[Square] ({}) {}/{} - {}".format
+                (self.id, self.x, self.y, self.size))
 
     def update(self, *args, **kwargs):
-        """*args is the list of arguments - no-keyworded arguments
-        - **kwargs must be skipped if *args exists and is not empty
-        - Each key in this dictionary represents an attribute to the instance
-        """
-        args_list = ["id", "width", "x", "y"]
-        if args and args[0] is not None:
-            if len(args) > len(args_list):
-                max_len = len(args_list)
-            else:
-                max_len = len(args)
-                for i in range(max_len):
-                    setattr(self, args_list[i], args[i])
-        elif kwargs is not None:
-            for key in kwargs:
-                if hasattr(self, key) is True:
-                    setattr(self, key, kwargs[key])
-
-    def __str__(self):
-        """The overloading __str__ method for square"""
-        return ("[Square] {:d} {:d}/{:d} - {:d}"
-                .format(self.id, self.x, self.y, self.width))
+        """adding method public"""
+        if len(args):
+            """args non-kwargs"""
+            for iter_arg, arg in enumerate(args):
+                if iter_arg == 0:
+                    self.id = arg
+                elif iter_arg == 1:
+                    self.size = arg
+                elif iter_arg == 2:
+                    self.x = arg
+                elif iter_arg == 3:
+                    self.y = arg
+        else:
+            for key, value in kwargs.items():
+                if key == "id":
+                    self.id = value
+                elif key == "size":
+                    self.size = value
+                elif key == "x":
+                    self.x = value
+                elif key == "y":
+                    self.y = value
 
     def to_dictionary(self):
-        """Returns the dictionary representation of a Square."""
-        return {'id': self.id, 'x': self.x, 'size': self.width, 'y': self.y}
+        """by adding the public method, that returns the dictionary"""
+
+        vars = ['id', 'size', 'x', 'y']
+        dict = {}
+        for i in range(len(vars)):
+            dict.update({vars[i]: getattr(self, vars[i])})
+        return dict
