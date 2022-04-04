@@ -1,0 +1,44 @@
+# 0x12. JavaScript - Warm up
+***
+## This is a README.md for the repository
+### 0x12. JavaScript - Warm up
+```
+For Holberton School
+Cohort 16.
+```
+### General
+
+#### Resources
+#### Read or watch:
+![Alt text](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/303/Javascript-535.png.jpeg)
+
+#### Extra resources around relational:
+
+*
+*
+
+### More Info
+
+*
+*
+
+```
+
+
+```
+
+## Files included
+
+| File                 | Details                                    |
+|--------------------- | ------------------------------------------ |
+| [](./a) |	              |
+| [](./b) |		             |
+| [](./c) |			            |
+| [](./)  |				           |
+| [](./)  |					          |
+
+### Author
+***
+*Holberton School Student*
+
+Juan Sebastian Posada  - [Github](https://github.com/Juansepo13) - [Twiter](https://twitter.com/@JuanSeb35904130)
