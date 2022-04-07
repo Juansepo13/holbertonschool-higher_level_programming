@@ -10,7 +10,7 @@ Cohort 16.
 
 #### Resources
 #### Read or watch:[
-[Alt text](https://luisiblogdeinformatica.com/wp-content/uploads/2020/03/bloque-ejemplo-scope-js.png)
+![Alt text](https://luisiblogdeinformatica.com/wp-content/uploads/2020/03/bloque-ejemplo-scope-js.png)
 
 #### Extra resources around relational:
 
