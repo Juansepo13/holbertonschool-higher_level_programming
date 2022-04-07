@@ -14,11 +14,11 @@ class Rectangle {
   }
 
   rotate () {
-    const storage = this.width;
-      this.width = this.height;
-      this.height = storage;
+  const storage = this.width;
+    this.width = this.height;
+    this.height = storage;
   }
-  
+
   double () {
     this.width *= 2;
     this.height *= 2;
