@@ -1,14 +1,17 @@
 #!/usr/bin/node
-const Squares = require('./5-square');
-class Square extends Squares {
-  charPrint (c = 'X') {
-    const { width, height } = this;
-    for (let i = 0; i < height; i++) {
-      let concat = '';
-      for (let j = 0; j < width; j++) {
-        concat += c;
+const Rectangle = require('./4-rectangle.js');
+class Square extends Rectangle {
+  constructor (size) {
+    super(size, size);
+  }
+
+  charPrint (c) {
+    if (c === undefined) {
+      this.print();
+    } else {
+      for (let i = 0; i < this.height; i++) {
+        console.log(c.repeat(this.width));
       }
-      console.log(concat);
     }
   }
 }
