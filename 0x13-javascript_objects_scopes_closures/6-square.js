@@ -1,13 +1,14 @@
 #!/usr/bin/node
-const lastSquare = require('./5-square');
-class Square extends lastSquare {
-  charPrint (c) {
-    if (c === undefined) {
-      this.print();
-    } else {
-      for (let i = 0; i < this.width; i++) {
-        console.log(c.repeat(this.height));
+const Squares = require('./5-square');
+class Square extends Squares {
+  charPrint (c = 'X') {
+    const { width, height } = this;
+    for (let i = 0; i < height; i++) {
+      let concat = '';
+      for (let j = 0; j < width; j++) {
+        concat += c;
       }
+      console.log(concat);
     }
   }
 }
