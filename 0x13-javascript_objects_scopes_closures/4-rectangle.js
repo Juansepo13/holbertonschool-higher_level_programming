@@ -14,7 +14,7 @@ class Rectangle {
   }
 
   rotate () {
-  const storage = this.width;
+    const storage = this.width;
     this.width = this.height;
     this.height = storage;
   }
