@@ -51,11 +51,6 @@ Cohort 16.
 *
 *
 
-```
-
-
-```
-
 ## Files included
 
 | File                 | Details                                    |
