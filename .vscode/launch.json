@@ -7,8 +7,8 @@
         {
             "type": "pwa-chrome",
             "request": "launch",
-            "name": "Open 1-main.html",
-            "file": "c:\\Users\\sJ\\Documents\\GitHub\\holbertonschool-higher_level_programming\\0x15-javascript-web_jquery\\1-main.html"
+            "name": "Open 3-main.html",
+            "file": "c:\\Users\\sJ\\Documents\\GitHub\\holbertonschool-higher_level_programming\\0x15-javascript-web_jquery\\3-main.html"
         }
     ]
 }
