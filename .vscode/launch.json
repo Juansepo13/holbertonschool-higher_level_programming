@@ -1,0 +1,14 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "pwa-chrome",
+            "request": "launch",
+            "name": "Open 1-main.html",
+            "file": "c:\\Users\\sJ\\Documents\\GitHub\\holbertonschool-higher_level_programming\\0x15-javascript-web_jquery\\1-main.html"
+        }
+    ]
+}
