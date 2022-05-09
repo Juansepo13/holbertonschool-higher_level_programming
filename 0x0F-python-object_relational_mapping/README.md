@@ -13,7 +13,19 @@ Cohort 16.
 #### Resources
 * [How to install MySQL 8.0 in Ubuntu 20.04](https://intranet.hbtn.io/projects/272)
 * [Databases](https://intranet.hbtn.io/concepts/556)
-* []()
+
+* [Object-relational mappers](https://www.fullstackpython.com/object-relational-mappers-orms.html)
+* [mysqlclient/MySQLdb documentation (please don’t pay attention to `_mysql`)](https://mysqlclient.readthedocs.io/)
+* [MySQLdb tutorial](https://www.mikusa.com/python-mysql-docs/index.html)
+* [SQLAlchemy tutorial](https://docs.sqlalchemy.org/en/13/orm/tutorial.html)
+* [SQLAlchemy](https://docs.sqlalchemy.org/en/13/)
+* [mysqlclient/MySQLdb](https://github.com/PyMySQL/mysqlclient)
+* [Introduction to SQLAlchemy](https://www.youtube.com/watch?v=woKYyhLCcnU)
+* [Flask SQLAlchemy](https://www.youtube.com/playlist?list=PLXmMXHVSvS-BlLA5beNJojJLlpE0PJgCW)
+* [10 common stumbling blocks for SQLAlchemy newbies](http://alextechrants.blogspot.com/2013/11/10-common-stumbling-blocks-for.html)
+* [Python SQLAlchemy Cheatsheet](https://www.pythonsheets.com/notes/python-sqlalchemy.html)
+* [SQLAlchemy ORM Tutorial for Python Developers (Warning: This tutorial is with PostgreSQL, but the concept of SQLAlchemy is the same with MySQL)](https://auth0.com/blog/sqlalchemy-orm-tutorial-for-python-developers/)
+* [SQLAlchemy Tutorial](https://overiq.com/sqlalchemy-101/)
 
 #### Read or watch:
 
@@ -55,19 +67,6 @@ Indeed, all of them have the same type of syntax, but not always. Please read tu
 
 
 #### Extra resources around relational:
-
-* [Object-relational mappers](https://www.fullstackpython.com/object-relational-mappers-orms.html)
-* [mysqlclient/MySQLdb documentation (please don’t pay attention to `_mysql`)](https://mysqlclient.readthedocs.io/)
-* [MySQLdb tutorial](https://www.mikusa.com/python-mysql-docs/index.html)
-* [SQLAlchemy tutorial](https://docs.sqlalchemy.org/en/13/orm/tutorial.html)
-* [SQLAlchemy](https://docs.sqlalchemy.org/en/13/)
-* [mysqlclient/MySQLdb](https://github.com/PyMySQL/mysqlclient)
-* [Introduction to SQLAlchemy](https://www.youtube.com/watch?v=woKYyhLCcnU)
-* [Flask SQLAlchemy](https://www.youtube.com/playlist?list=PLXmMXHVSvS-BlLA5beNJojJLlpE0PJgCW)
-* [10 common stumbling blocks for SQLAlchemy newbies](http://alextechrants.blogspot.com/2013/11/10-common-stumbling-blocks-for.html)
-* [Python SQLAlchemy Cheatsheet](https://www.pythonsheets.com/notes/python-sqlalchemy.html)
-* [SQLAlchemy ORM Tutorial for Python Developers (Warning: This tutorial is with PostgreSQL, but the concept of SQLAlchemy is the same with MySQL)](https://auth0.com/blog/sqlalchemy-orm-tutorial-for-python-developers/)
-* [SQLAlchemy Tutorial](https://overiq.com/sqlalchemy-101/)
 
 ### More Info
 
