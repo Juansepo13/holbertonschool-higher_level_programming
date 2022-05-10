@@ -1,0 +1,22 @@
+937  sudo mysql -uroot
+  938  sudo mysql_secure_installation
+  939  sudo services mysql status
+  940  sudo  services mysql start
+  941  sudo services mysql start
+  942  sudo service mysql start
+  943  sudo service mysql status
+  944  /etc/init.d/mysql stop
+  945  sudo mysql_safe --skip´-grant-tables&
+  946  sudo mysql_safe --skip´-grant-tables %
+  947  sudo mysql_safe --skip-grant-tables %
+  948  sudo /usr/sbin/mysqld --skip-grant-tables --skip-networking &
+  949  mysql -u root
+  950  sudo mysql
+951  sudo service mysql start
+  952  cd /var/run
+  953  sudo cp -rp ./mysqld ./mysqld.bak
+  954  sudo cp -rp ./mysqld ./mysqld.bak
+  955  sudo mv ./mysqld.bak ./mysqld
+  956  sudo mysqld_safe --skip-grant-tables --skip-networking &
+  957  mysql -u root
+  958  service mysql restart
