@@ -23,18 +23,6 @@ Cohort 16.
 * [Quickstart with Requests package](https://docs.python.org/3/howto/urllib2.html)
 * [Requests package](https://docs.python-requests.org/en/master/)
 
-
-
-#### Extra resources around relational:
-
-*
-*
-
-### More Info
-
-*
-*
-
 ## Files included
 
 | File                 | Details                                    |
